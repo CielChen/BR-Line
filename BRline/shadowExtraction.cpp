@@ -23,6 +23,7 @@ step4.利用最小二乘法，拟合出BR线
 #include <algorithm>
 #include <Eigen/Dense>
 #include <valarray>
+#include <algorithm>
 #include "shadowExtraction.h"
 
 using namespace cv;
@@ -1114,6 +1115,26 @@ std::vector<double> leastSquareFitting(std::vector<Point> &rPoints)
 	return resLine;
 }
 
+//插入排序：降序
+int inserSort(std::vector<Point> &vec)
+{
+	for(int i=0;i<vec.size();i++)
+	{
+		for(int j=i;j>0;j--)
+		{
+			if(vec[j].x>vec[j-1].x)
+			{
+				int temp=vec[j].x;
+				vec[j].x=vec[j-1].x;
+				vec[j-1].x=temp;
+			}
+			else
+				break;
+		}
+	}
+	return 0;
+}
+
 //画出拟合的直线
 //第一个参数：得到的BR最小值点；第二个参数：在一条线上的点；第三个参数：在这条线之外的点
 int regressionPoint(const std::vector<Point> &rPoints, std::vector<Point> &rInlinePoints, std::vector<Point> &rOutlinePoints)
@@ -1192,11 +1213,14 @@ int regressionPoint(const std::vector<Point> &rPoints, std::vector<Point> &rInli
 	for(int i=0;i<rOutlinePoints.size();i++)
 	{
 		cv::Point center=cv::Point((int)rOutlinePoints[i].x, (int)rOutlinePoints[i].y);
-		circle(cdst, center, 3, cv::Scalar(255,0,255), -1);
+		circle(cdst, center, 1, cv::Scalar(255,0,255), -1);
 	}
 	//画线:白色
 	cv::Point pt1,pt2;
-	int beginDot=dotPoint[0].x, endDot=dotPoint[dotPoint.size()-1].x;
+	int beginDot,endDot;
+	inserSort(rInlinePoints);  //对线内点的x坐标做降序排序
+	beginDot=rInlinePoints[0].x;
+	endDot=rInlinePoints[rInlinePoints.size()-1].x;
 	pt1.x=beginDot;
 	pt1.y=kb[0]*pt1.x+kb[1];
 	pt2.x=endDot;

@@ -1,29 +1,30 @@
-﻿生成启动时间为 2017/4/13 16:07:47。
+﻿生成启动时间为 2017/4/17 9:35:06。
      1>项目“F:\Code\BRline\BRline\BRline.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\eigen-eigen-67e894c6cd8f" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt shadowExtraction.cpp
          shadowExtraction.cpp
      1>e:\eigen-eigen-67e894c6cd8f\eigen\src\core\arch\cuda\half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>f:\code\brline\brline\shadowextraction.cpp(499): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(501): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(541): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(543): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(583): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(585): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(626): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(628): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(639): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(641): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(652): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(654): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(1086): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\code\brline\brline\shadowextraction.cpp(500): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(502): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(542): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(544): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(584): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(586): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(627): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(629): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(640): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(642): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(653): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(655): warning C4018: “<”: 有符号/无符号不匹配
      1>f:\code\brline\brline\shadowextraction.cpp(1087): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-     1>f:\code\brline\brline\shadowextraction.cpp(1147): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(1156): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(1179): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(1192): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\code\brline\brline\shadowextraction.cpp(1201): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-     1>f:\code\brline\brline\shadowextraction.cpp(1203): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>f:\code\brline\brline\shadowextraction.cpp(1088): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\code\brline\brline\shadowextraction.cpp(1121): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(1168): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(1177): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(1200): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(1213): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\code\brline\brline\shadowextraction.cpp(1225): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>f:\code\brline\brline\shadowextraction.cpp(1227): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Code\BRline\Debug\BRline.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Code\BRline\Debug\BRline.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Code\BRline\Debug\BRline.lib" /MACHINE:X86 Debug\main.obj
          Debug\grabShadow.obj
@@ -33,4 +34,4 @@
 
 生成成功。
 
-已用时间 00:00:03.46
+已用时间 00:00:03.49
